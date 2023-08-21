@@ -1,16 +1,16 @@
 Se creo el proyecto con la ultima version estable de laravel
 Instrucciones de instalacion, desde la terminal:
-composer require laravel/ui
+composer require laravel/ui<br>
 php artisan ui:auth
 
-PHP utilizado:
-"php": "^8.0.2",
+PHP utilizado:<br>
+"php": "^8.0.2",<br>
 "laravel/framework": "^9.19",
 
-Nombre de BD creada en phmyadmin:
+Nombre de BD creada en phmyadmin:<br>
 DB_DATABASE=pizzeria_test
 
-Se instalo spatie: https://spatie.be/docs/laravel-permission/v5/installation-laravel
+Se instalo spatie: https://spatie.be/docs/laravel-permission/v5/installation-laravel<br>
 Tambien Laravel Breeze: https://laravel.com/docs/10.x/starter-kits opcion blade
 
 Para sincronizar la BD: php artisan migrate
@@ -18,14 +18,15 @@ Para sincronizar la BD: php artisan migrate
 Se agregaron imagenes en el directorio: public > img > imagenes para views
 
 Ejecutar los seeders:
-php artisan db:seed --class=IngredientesSeeder
-php artisan db:seed --class=sucursalesSeeder
-php artisan db:seed --class=pizzasPrestablecidasSeeder
+php artisan db:seed --class=IngredientesSeeder<br>
+php artisan db:seed --class=sucursalesSeeder<br>
+php artisan db:seed --class=pizzasPrestablecidasSeeder<br>
 php artisan db:seed --class=userRoleSeede
 
 Con la BD que se trabajo, se exporto y se dejo en database > pizzeria_test-sql
 
 Documentacion habitual de Laravel:
+<hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
